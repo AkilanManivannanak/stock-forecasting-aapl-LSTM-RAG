@@ -38,3 +38,4 @@ data/cache/
 
 # Logs
 *.log
+*.ipynb
