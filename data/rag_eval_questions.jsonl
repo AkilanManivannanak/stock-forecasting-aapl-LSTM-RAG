@@ -1,4 +1,10 @@
-{"question": "What is the main goal of this AAPL forecasting project?"}
-{"question": "How is the LSTM model evaluated on historical data?"}
-{"question": "What is the role of the RAG component in this project?"}
-
+{"id":"q1","ticker":"AAPL","question":"What is the goal of this project? Answer in 1-2 sentences."}
+{"id":"q2","ticker":"AAPL","question":"Which models are trained/evaluated and what baseline is used?"}
+{"id":"q3","ticker":"AAPL","question":"Where are the forecast plots saved and what files should I open after training?"}
+{"id":"q4","ticker":"AAPL","question":"What artifacts does training produce (model file, scaler, CSVs) and where are they stored?"}
+{"id":"q5","ticker":"AAPL","question":"How does the walk-forward regime evaluation work (window size and step size)?"}
+{"id":"q6","ticker":"AAPL","question":"What are the key findings from metrics.csv / experiment_report.md? Which model wins and why?"}
+{"id":"q7","ticker":"AAPL","question":"What are the FastAPI endpoints and what JSON schema does /forecast return?"}
+{"id":"q8","ticker":"AAPL","question":"What JSON schema does /multi_horizon_forecast return, and what does best_horizon mean right now?"}
+{"id":"q9","ticker":"AAPL","question":"What are the biggest current limitations of this approach and the next improvements suggested?"}
+{"id":"q10","ticker":"AAPL","question":"How do I run the full pipeline end-to-end (train -> ingest -> api) with the exact commands?"}
