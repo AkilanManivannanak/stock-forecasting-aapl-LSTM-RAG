@@ -1,5 +1,5 @@
-from src.models import train_lstm  # adapt to your actual module
+# scripts/train.py
+from src.main_training import main
 
 if __name__ == "__main__":
-    train_lstm.main()
-
+    main()
